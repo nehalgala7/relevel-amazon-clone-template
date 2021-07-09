@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Preferred package manager is npm
+package-lock.json
