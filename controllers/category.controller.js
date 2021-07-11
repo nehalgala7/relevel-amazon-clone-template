@@ -11,11 +11,15 @@ const deleteCategory = (req, res) => {
     //deleteCategory api logic here
 };
 
-
-const AuthController = {
-    createCategory,
-    updateCategory,
-    deleteCategory
+const getCategoryList = (req, res) => {
+    //getCategoryList api logic here
 };
 
-module.exports = AuthController;
+const CategoryController = {
+    createCategory,
+    updateCategory,
+    deleteCategory,
+    getCategoryList
+};
+
+module.exports = CategoryController;

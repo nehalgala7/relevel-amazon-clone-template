@@ -12,10 +12,10 @@ const deleteUser = (req, res) => {
 };
 
 
-const AuthController = {
+const UserController = {
     createCategory,
     updateCategory,
     deleteCategory
 };
 
-module.exports = AuthController;
+module.exports = UserController;
