@@ -1,7 +1,9 @@
-exports.getUsers = async (req, res, next) => {}; // Controller to read all the users
+const signup = (req, res) => {
+    //signup api logic here
+};
 
-exports.getUser = async (req, res, next) => {}; // Controller to read the user
+const UserController = {
+    signup
+};
 
-exports.follow = async (req, res, next) => {};  // Controller to follow
-
-exports.unfollow = async (req, res, next) => {}; // Controller to unfollow
+module.exports = UserController;

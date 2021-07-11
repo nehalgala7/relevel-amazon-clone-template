@@ -1,4 +1,15 @@
-exports.login = async (req, res, next) => {};  // Controller for login
+const signup = (req, res) => {
+    //signup api logic here
+};
 
-exports.signup = async (req, res, next) => {}; // Controller for signup
+const login = (req, res) => {
+    //signup api logic here
+};
 
+
+const AuthController = {
+    signup,
+    login
+};
+
+module.exports = AuthController;

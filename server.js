@@ -18,3 +18,10 @@ app.listen(
   PORT,
   console.log(`server started in ${process.env.NODE_ENV} mode at port ${PORT}`)
 );
+
+// fetch routes
+let userRouter = require('./route/user');
+
+
+//define root routes.
+app.use('/user', userRouter);
