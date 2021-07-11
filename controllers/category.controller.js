@@ -1,13 +1,13 @@
-const createUser = (req, res) => {
+const createCategory = (req, res) => {
     //createCategory api logic here
 };
 
-const updateUser = (req, res) => {
+const updateCategory = (req, res) => {
     //updateCategory api logic here
 };
 
 
-const deleteUser = (req, res) => {
+const deleteCategory = (req, res) => {
     //deleteCategory api logic here
 };
 
