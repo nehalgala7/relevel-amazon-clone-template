@@ -20,8 +20,8 @@ app.listen(
 );
 
 // fetch routes
-let userRouter = require('./route/user');
-
+let userRouter = require('./routes/user');
 
 //define root routes.
 app.use('/user', userRouter);
+
